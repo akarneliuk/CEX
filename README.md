@@ -11,3 +11,7 @@ Subscribe to our Youtube Channel: https://www.youtube.com/channel/UCsW5YtOX3dGVB
 ## Table of Content
 - 01: Installation of Python 3.8.1
 - 02: First Python code
+
+# Do you want to automate network like a profi?
+Join the network automation course: http://training.karneliuk.com
+(c) 2016-2020 karneliuk.com

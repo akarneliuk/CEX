@@ -12,6 +12,7 @@ Subscribe to our Youtube Channel: https://www.youtube.com/channel/UCsW5YtOX3dGVB
 - 01: Installation of Python 3.8.1
 - 02: First Python code
 - 03: Python variables (numbers, strings, bollean) and format() function
+- 04: Python variables (list) and basic functions to work with the list
 
 # Do you want to automate network like a profi?
 Join the network automation course: http://training.karneliuk.com

@@ -10,9 +10,13 @@ Subscribe to our Youtube Channel: https://www.youtube.com/channel/UCsW5YtOX3dGVB
 
 ## Table of Content
 - 01: Installation of Python 3.8.1
-- 02: First Python code
+- 02: The first Python's code
 - 03: Python variables (numbers, strings, bollean) and format() function
 - 04: Python variables (list) and basic functions to work with the list
+- 05: Using split() and join() function to list-string manipulations
+
+# Preparing to Cisco DevNet
+This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).
 
 # Do you want to automate network like a profi?
 Join the network automation course: http://training.karneliuk.com

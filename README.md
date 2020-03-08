@@ -14,6 +14,7 @@ Subscribe to our Youtube Channel: https://www.youtube.com/channel/UCsW5YtOX3dGVB
 - 03: Python variables (numbers, strings, bollean) and format() function
 - 04: Python variables (list) and basic functions to work with the list
 - 05: Using split() and join() function to list-string manipulations
+- 06: Python variables (dictionary) and basic functions to work with the dictionary
 
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).

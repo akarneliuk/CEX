@@ -28,4 +28,5 @@ openconfig_interfaces = {
 print('The whole data model is: {}'.format(openconfig_interfaces))
 
 print('You have the following interfaces: {}'.format(openconfig_interfaces['interfaces']['interface']))
+
 print('One of the interfaces has the following name: {}'.format(openconfig_interfaces['interfaces']['interface'][0]['config']['name']))

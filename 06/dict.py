@@ -1,30 +1,30 @@
 #!/usr/local/bin/python3.8
 
 ip = {
-       'address': '192.168.100.1',
+       'ip': '192.168.100.1',
        'prefix': 24
      }
 
-print('Your dictionary is {}'.format(ip))
-print('The device IP is {}'.format(ip['address']))
+print('The dict is {}'.format(ip))
+print('IP is {}'.format(ip['ip']))
 
 ip['family'] = 'ipv4'
 
-print('Your dictionary is {}'.format(ip))
+print('The dict is {}'.format(ip))
 
-del ip['prefix']
+ip.update({'primary': True})
 
-print('Your dictionary is {}'.format(ip))
+print('The dict is {}'.format(ip))
 
-ip.update({'type': 'primary'})
+del ip['family']
 
-print('Your dictionary is {}'.format(ip))
+print('The dict is {}'.format(ip))
 
-address = ip.pop('address', None)
+deleted_value = ip.pop('primary', None)
 
-print('Your dictionary is {} and removed element is {}'.format(ip, address))
+print('The dict is {}, deleted {}'.format(ip, deleted_value))
 
-address = ip.pop('address', None)
+deleted_value = ip.pop('primary', None)
 
-print('Your dictionary is {} and removed element is {}'.format(ip, address))
+print('The dict is {}, deleted {}'.format(ip, deleted_value))
 

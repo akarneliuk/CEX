@@ -15,6 +15,7 @@ Subscribe to our Youtube Channel: https://www.youtube.com/channel/UCsW5YtOX3dGVB
 - 04: Python variables (list) and basic functions to work with the list
 - 05: Using split() and join() function to list-string manipulations
 - 06: Python variables (dictionary) and basic functions to work with the dictionary
+- 07: For instruction for Python's lists and dictionaries (using items())
 
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).

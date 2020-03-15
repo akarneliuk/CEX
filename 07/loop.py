@@ -23,3 +23,4 @@ print('transformed dict {}'.format(interfaces2.items()))
 
 for int_key, int_value in interfaces2.items():
     print('The key is {} and the value is {}'.format(int_key, int_value))
+    print('Internface {} has {} speed and it is {}ly enabled'.format(interface_key, interface_value['speed'], interface_value['enabled']))

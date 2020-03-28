@@ -17,7 +17,7 @@ We provide you unique learning experience by also providing the video associated
 - 06: Python variables (dictionary) and basic functions to work with the dictionary
 - 07: For loop for Python's lists and dictionaries (using items())
 - 08: If conditional for Python script 
-- 09: While loop based on the Boolean Logic
+- 09: While loop in Python and math operations
 
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).

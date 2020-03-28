@@ -15,7 +15,9 @@ We provide you unique learning experience by also providing the video associated
 - 04: Python variables (list) and basic functions to work with the list
 - 05: Using split() and join() function to list-string manipulations
 - 06: Python variables (dictionary) and basic functions to work with the dictionary
-- 07: For instruction for Python's lists and dictionaries (using items())
+- 07: For loop for Python's lists and dictionaries (using items())
+- 08: If conditional for Python script 
+- 09: While loop based on the Boolean Logic
 
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).

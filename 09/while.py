@@ -11,7 +11,7 @@ index = len(ip_start) - 1
 num_ip_s = 0
 
 while index >= 0:
-    num_ip_s = num_ip_s + (int(ip_start[index]) * (256 ** (len(ip_start) - 1 - index)))
+    num_ip_s += (int(ip_start[index]) * (256 ** (len(ip_start) - 1 - index)))
     index -= 1
 
 ip_end = ip_end.split('.')
@@ -19,7 +19,7 @@ index = len(ip_end) - 1
 num_ip_e = 0
 
 while index >= 0:
-    num_ip_e = num_ip_e + (int(ip_end[index]) * (256 ** (len(ip_end) - 1 - index)))
+    num_ip_e += (int(ip_end[index]) * (256 ** (len(ip_end) - 1 - index)))
     index -= 1
 
 if num_ip_s <= num_ip_e:
@@ -34,10 +34,10 @@ if num_ip_s <= num_ip_e:
 
         while decr > 0:
             temp_ip_l.append(str(int(decr / 256 ** (3 - ind))))
-            decr = decr % (256 ** (3 - ind))
+            decr %= (256 ** (3 - ind))
             ind += 1
 
-        print('.'.join(temp_ip_l))
+        print('IP is {}'.format('.'.join(temp_ip_l)))
 
         num_ip_t += 1
 

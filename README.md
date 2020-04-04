@@ -18,6 +18,7 @@ We provide you unique learning experience by also providing the video associated
 - 07: For loop for Python's lists and dictionaries (using items())
 - 08: If conditional for Python script 
 - 09: While loop in Python and math operations
+- 10: Creation and usage of the user-defined functions in Python
 
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).

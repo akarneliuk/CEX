@@ -1,9 +1,10 @@
 #!/usr/local/bin/python3.8
 
 # Variables
-
 ip_addresses = '10.0.0.3-10.0.1.15'
 
+
+# Body
 ip_start, ip_end = ip_addresses.split('-')
 
 ip_start = ip_start.split('.')

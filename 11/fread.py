@@ -18,12 +18,12 @@ for line_entry in data_lines:
     temp_dict = {}
 
     for value_index, value_entry in enumerate(line_entry.split(',')):
-#        value_entry = None if value_entry == 'none' else value_entry
 
         temp_dict.update({headers_keys[value_index]: value_entry})
     
     result_data.append(temp_dict)
 
+print(result_data)
 
 ## Converting Python data into CSV format and writing into a file
 t0 = []

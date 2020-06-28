@@ -9,6 +9,7 @@ This folders contains the scripts without too much description. Well, without de
 We provide you unique learning experience by also providing the video associated with each lesson. Ultimately you have the blogpost + the video class + the code example. Subscribe to our Youtube Channel to follow video series: https://www.youtube.com/channel/UCsW5YtOX3dGVB2d-XTqWhUQ
 
 ## Table of Content
+Season `01`:
 - 01: Installation of Python 3.8.1
 - 02: The first Python's code
 - 03: Python variables (numbers, strings, bollean) and format() function
@@ -20,10 +21,13 @@ We provide you unique learning experience by also providing the video associated
 - 09: While loop in Python and math operations
 - 10: Creation and usage of the user-defined functions in Python
 
+Season `02`:
+- 11: Working with files (reading, writing)
+
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).
 
 # Do you want to automate network like a profi?
-Join the network automation course: http://training.karneliuk.com
+Join the network automation course: https://training.karneliuk.com
 
 (c) 2016-2020 karneliuk.com

@@ -4,46 +4,40 @@
 path_to_file = './some_data.csv'
 
 # Body
-## Reading CSV file and parsing it into Python data structures
+## Reading and parsing
 with open(path_to_file, 'r') as f:
     file_content = f.read()
 
 data_lines = file_content.split('\n')
-headers = data_lines.pop(0)
-headers_keys = headers.split(',')
+header_keys = data_lines.pop(0).split(',')
 
 result_data = []
 
-for line_entry in data_lines:
+for data_line in data_lines:
     temp_dict = {}
 
-    for value_index, value_entry in enumerate(line_entry.split(',')):
+    for entry_index, entry_value in enumerate(data_line.split(',')):
+        temp_dict.update({header_keys[entry_index]: entry_value})
 
-        temp_dict.update({headers_keys[value_index]: value_entry})
-    
     result_data.append(temp_dict)
 
-print(result_data)
-
-## Converting Python data into CSV format and writing into a file
+## Create spreadsheet and write
 t0 = []
 
-for line_index, data_entry in enumerate(result_data):
+for line_index, line_entry in enumerate(result_data):
     t1 = []
     t2 = []
-    for key, value in data_entry.items():
-        if line_index == 0:
-            t1.append(key)
 
-        t2.append(value)
+    for item_key, item_value in line_entry.items():
+        if line_index == 0:
+            t1.append(item_key)
+
+        t2.append(item_value)
 
     if t1:
-        t0.append(t1)
+        t0.append(','.join(t1))
 
-    t0.append(t2)
+    t0.append(','.join(t2))
 
-t4 = [','.join(t0_entry) for t0_entry in t0]
-
-
-with open('new_file.csv', 'w') as f:
-    f.write('\n'.join(t4))
+with open('./new_file.csv', 'w') as f:
+    f.write('\n'.join(t0))

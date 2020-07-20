@@ -1,0 +1,3 @@
+Id,Name,Interface,Speed,Encapsulation,VLAN,IPv4,IPv6
+1,DE-DB-1,eth0,1000,none,none,192.168.100.11/24,fc00:192:168:100::B/64
+2,DE-CP-1,eth0,10000,dot1q,10,192.168.100.12/24,fc00:192:168:100::C/64

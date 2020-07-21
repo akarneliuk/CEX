@@ -2,28 +2,26 @@
 
 # Modules
 import sys
-from re import *
 from csv import DictReader
+from re import *
 
 # Body
 if len(sys.argv) < 2:
-    sys.exit('You haven\'t provided the path to the file.')
+    sys.exit('You havn\'t provided any arguments.')
 
 elif len(sys.argv) > 2:
-    sys.exit('You have provied too many arguments.')
+    sys.exit('You have provided too many arguments.')
 
 else:
     if match('.*\.csv$', sys.argv[1]):
         ld = []
-
         with open(sys.argv[1], 'r') as f:
-            reader = DictReader(f)
+            csv_dict = DictReader(f)
 
-            for row in reader:
-                ld.append(row)
+            for entry in csv_dict:
+                ld.append(entry)
 
         print(ld)
 
     else:
-        sys.exit('The provided file doesn\'t have \'.csv\' extension.')
-        
+        sys.exit('The provided file is not .csv.')

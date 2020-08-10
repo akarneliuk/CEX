@@ -24,6 +24,7 @@ Season `01`:
 Season `02`:
 - 11: Working with files (reading, writing)
 - 12: Utilising built-in Python modules (sys, re, csv)
+- 13: Crearing your own Python module
 
 # Preparing to Cisco DevNet
 This series will help you to prepare to Cisco DevNet certification (e.g. DEVASC, DEVCORE exams).
